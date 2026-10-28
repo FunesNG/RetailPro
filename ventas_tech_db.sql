@@ -59,7 +59,9 @@ INSERT INTO clientes (id_cliente, nombre, email, ciudad, fecha_registro) VALUES
 (2, 'Carlos Ruiz', 'carlos@mail.com', 'Córdoba', '2024-01-10'),
 (3, 'Ana Gomez', 'ana@mail.com', 'Rosario', '2024-02-01'),
 (4, 'Pedro Sanz', 'pedro@mail.com', 'Mendoza', '2024-02-15'),
-(5, 'Laura Torres', 'laura@mail.com', 'Tucumán', '2024-03-01');
+(5, 'Laura Torres', 'laura@mail.com', 'Tucumán', '2024-03-01'),
+(6, 'Rodrigo Freites', 'rodrigo@mail.com', 'Corrientes', '2024-03-29'),
+(7, 'Camila Tejeda', 'camila@mail.com', 'Rio Negro', '2024-04-25');
 
 INSERT INTO productos (id_producto, nombre_producto, id_categoria, precio, stock, activo) VALUES
 (1, 'Laptop Pro 15', 1, 1200.00, 15, 1),
@@ -67,7 +69,9 @@ INSERT INTO productos (id_producto, nombre_producto, id_categoria, precio, stock
 (3, 'Monitor 4K 27', 1, 450.00, 12, 1),
 (4, 'Auriculares BT Pro', 3, 120.00, 35, 1),
 (5, 'SSD Externo 1TB', 4, 130.00, 18, 1),
-(6, 'Teclado Mecánico', 2, 95.00, 40, 1);
+(6, 'Teclado Mecánico', 2, 95.00, 40, 1),
+(10, 'Auriculares JBL', 3, 50.00, 9, 1),
+(11, 'Teclado Magnetico', 2, 60.00, 20, 1);
 
 INSERT INTO ventas (id_venta, id_cliente, id_producto, cantidad, precio_unitario, fecha_venta) VALUES
 ( 1, 1, 1, 2, 1200.00, '2024-03-05'),
@@ -87,3 +91,7 @@ SELECT * FROM categorias;
 SELECT * FROM clientes;
 SELECT * FROM productos;
 SELECT * FROM ventas;
+
+
+-- Se hizo un agregado de dos lineas en la tabla clientes (Linea 63 y 64) y en la tabla productos (Linea 73 y 74)!!!!!
+-- para poder hacer los ejercicios del entregable del modulo 5 !!!!!
