@@ -9,10 +9,15 @@ El proyecto forma parte de mi formación en Data Analytics en Coderhouse y reún
 Desarrollar una solución de análisis comercial que permita responder preguntas de negocio como:
 
 -¿Cuánto factura la empresa durante cada período?
+
 -¿Qué productos generan mayores ingresos?
+
 -¿Cuáles son los productos con mayor volumen de ventas?
+
 -¿Qué clientes realizan compras recurrentes?
+
 -¿Cómo se comporta el ticket promedio?
+
 -¿Qué información puede utilizar el equipo comercial para detectar oportunidades de mejora?
 
 📂 Estructura del repositorio
@@ -33,8 +38,11 @@ Contiene las instrucciones SQL para crear la base de datos y sus tablas, definir
 Las tablas principales son:
 
 -categorias: clasificación de los productos.
+
 -clientes: información de los clientes.
+
 -productos: catálogo de productos.
+
 -ventas: registros de las operaciones comerciales.
 
 
@@ -43,8 +51,11 @@ Las tablas principales son:
 Contiene consultas orientadas a obtener indicadores para la toma de decisiones:
 
 -Resumen mensual de ventas.
+
 -Ranking de los cinco productos con mayor facturación.
+
 -Identificación de clientes recurrentes.
+
 -Comparación de la facturación mensual con el promedio.
 
 **m5_consultas_joins.sql — Consultas con JOIN**
@@ -61,12 +72,17 @@ Las consultas SQL permiten construir indicadores para estudiar el comportamiento
 
 -Entre los principales indicadores se encuentran:
 
-Facturación total: importe acumulado de las ventas.
-Cantidad de operaciones: número de registros de venta, sujeto a la granularidad de los datos.
-Ticket promedio: importe promedio de las operaciones o líneas de venta, según el nivel de detalle de la tabla.
-Unidades vendidas: cantidad total comercializada por producto.
-Ranking de productos: clasificación según la facturación generada.
-Clientes recurrentes: clientes con más de un registro de venta.
+-Facturación total: importe acumulado de las ventas.
+
+-Cantidad de operaciones: número de registros de venta, sujeto a la granularidad de los datos.
+
+-Ticket promedio: importe promedio de las operaciones o líneas de venta, según el nivel de detalle de la tabla.
+
+-Unidades vendidas: cantidad total comercializada por producto.
+
+-Ranking de productos: clasificación según la facturación generada.
+
+-Clientes recurrentes: clientes con más de un registro de venta.
 
 Estos indicadores permiten distinguir entre productos con alta rotación y productos que generan mayores ingresos, además de analizar la evolución comercial a lo largo del tiempo.
 
@@ -77,7 +93,9 @@ Estos indicadores permiten distinguir entre productos con alta rotación y produ
 Para ejecutar el proyecto necesitás:
 
 -Microsoft SQL Server instalado y en funcionamiento.
+
 -SQL Server Management Studio (SSMS).
+
 -Acceso a una instancia de SQL Server con permisos para crear bases de datos y tablas.
 
 **Paso 1. Descargar el repositorio**
@@ -127,14 +145,23 @@ Si el archivo contiene conexiones a una base de datos local, verificá la config
 Durante el desarrollo del proyecto se trabajan conceptos fundamentales de análisis de datos:
 
 -Diseño y creación de bases de datos relacionales.
+
 -Definición de claves primarias y foráneas.
+
 -Inserción y consulta de datos mediante SQL.
+
 -Agregaciones con SUM(), COUNT() y AVG().
+
 -Agrupamiento de información con GROUP BY.
+
 -Filtrado de resultados agregados con HAVING.
+
 -Clasificación de resultados mediante ORDER BY y TOP.
+
 -Combinación de tablas mediante INNER JOIN.
+
 -Interpretación de indicadores comerciales.
+
 -Visualización de información con Power BI.
 
 📌 Estado del proyecto
